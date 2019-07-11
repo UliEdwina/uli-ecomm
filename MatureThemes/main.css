@@ -1,0 +1,115 @@
+body{
+    height: 100vh;
+}
+.app {
+    height: 100%;
+    background:  #ffff33;
+    color: black;
+    background-image: url('./assets/star.jpeg');
+    background-repeat: no-repeat;
+    background-size: 900px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    word-spacing: 10px;
+    
+    
+
+}
+
+.toggle-button{
+    background: #669999;
+    margin-left:60px;
+}
+
+.app.star-life{
+    background-color: rgb(31, 31, 53);
+    background-image: url('./assets/dwarf.jpeg')
+    
+   
+    
+}
+
+.toggle-button.star-life {
+    background-color: azure;
+
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    margin-left: 10px;
+    
+    
+    
+}
+
+.starsone{
+    color:whitesmoke;
+    margin-left: 20px;
+}
+.starstwo{
+    color:whitesmoke;
+    margin-left: 20px;
+}
+
+.box-odd{
+    width:400px;
+    display:flex;
+    flex-flow: wrap;
+    background-color: brown;
+    margin-top: 20px;
+    
+}
+.box-even{
+    width:400px;
+    display:flex;
+    flex-flow: wrap;
+    background-color:orangered;
+    margin-top: 20px;
+    
+}
+
+.box-one.box-odd{
+    width:400px;
+    display:flex;
+    flex-flow: wrap;
+    background-color:blue;
+    margin-top: 20px;
+}
+
+.box-two.box-even{
+    width:400px;
+    display:flex;
+    flex-flow: wrap;
+    background-color:blue;
+    margin-top: 20px;
+}
+
+.box-three.box-odd{
+    width:400px;
+    display:flex;
+    flex-flow: wrap;
+    background-color:blue;
+    margin-top: 20px;
+}
+.box-four.box-even{
+    width:400px;
+    display:flex;
+    flex-flow: wrap;
+    background-color:blue;
+    margin-top: 20px;
+}
+.box-five.box-odd{
+    width:400px;
+    display:flex;
+    flex-flow: wrap;
+    background-color:blue;
+    margin-top: 20px;
+}
+
+p{
+    margin-left: 20px;
+    letter-spacing: 1.3px;
+    line-height: 25px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,6 @@
+server.log
+*.log
+*.zip
+!critical.log
+cache/
+#comment
